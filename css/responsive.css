@@ -30,21 +30,37 @@
 
     /* Banner section style  */
     .banner_details {
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
 
     .banner_contents {
-        width: 91%;
-        padding: 0;
+        width: 88%;
+        padding: 20px 10px;
         display: flex;
         justify-content: center;
         align-items: center;
-        /* margin-left: 10px; */
-        padding: 80px 0px;
+        padding: 2px;
 
     }
+
+    .banner_info h2 {
+        font-size: 3rem;
+    }
+
+    .banner_info h1 {
+        font-size: 3.5rem;
+    }
+
+    .banner_info {
+        font-size: 1rem;
+    }
+
+    .banner_info button {
+        padding: 12px 24px;
+    }
+
 
     .banner_image {
         display: flex;
@@ -60,6 +76,72 @@
     .banner_info button {
         margin-right: 0;
     }
+
+    /* Gamer section */
+    .gamer {
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+    }
+
+    .gamer_details {
+        text-align: center;
+    }
+
+    br {
+        display: none;
+    }
+
+    .gamer_details h1 {
+        font-size: 2rem;
+    }
+
+    .gamer_details p {
+        font-size: 16px;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+
+    .gamer_details p.purpose {
+        font-size: 18px;
+        line-height: normal;
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+
+        .gamer_details p.quoto{
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    /* Online game section */
+
+.online_game{
+    margin: 30px;
+    padding: 0;
+}
+.online_game h1{
+    font-size: 26px;
+}
+.online_game p{
+    font-size: 14px; 
+}
+.cards{
+    flex-direction: column;
+}
+.card_details{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
 
 }
 
@@ -78,23 +160,43 @@
         gap: 8px;
     }
 
-/* Banner section */
-.banner_contents{
-    padding: 10px 50px 10px 20px;
-    width: 50%;
-}
+    /* Banner section */
+    .banner_details{
+        flex-direction: column-reverse;
+    }
+    .banner_contents {
+        /* padding: 10px 50px 10px 20px; */
+        width: 100%;
+    }
 
-.banner_image{
-    margin-right: 0px;
-    height: auto;
-    object-fit: contain;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .banner_image {
+        margin-right: 0px;
+        height: auto;
+        object-fit: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-}
-.banner_image img{
-    width: 100%;
-}
+    }
+
+    .banner_image img {
+        width: 100%;
+    }
+    /* Gamer section  */
+    .gamer{
+        object-fit: cover;
+        flex-direction: column;
+        margin: 0;
+    }
+    .gamer_details {
+        text-align: center;
+    }
+    /* online gaming section */
+    
+        .online_game {
+            margin: 30px;
+            padding: 0;
+        }
+
 
 }
