@@ -36,12 +36,12 @@
     }
 
     .banner_contents {
-        width: 88%;
+        width: 100%;
         padding: 20px 10px;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 2px;
+        /* padding: 2px; */
 
     }
 
@@ -111,31 +111,69 @@
         margin-top: 30px;
     }
 
-        .gamer_details p.quoto{
+    .gamer_details p.quoto {
         font-size: 20px;
         margin-top: 0;
     }
 
     /* Online game section */
 
-.online_game{
-    margin: 30px;
-    padding: 0;
-}
-.online_game h1{
-    font-size: 26px;
-}
-.online_game p{
-    font-size: 14px; 
-}
-.cards{
-    flex-direction: column;
-}
-.card_details{
-    font-size: 12px;
-}
+    .online_game {
+        margin: 30px;
+        padding: 0;
+    }
+
+    .online_game h1 {
+        font-size: 26px;
+    }
+
+    .online_game p {
+        font-size: 14px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card_details {
+        font-size: 12px;
+    }
 
 
+    /* Instant playsection */
+    .instantPlayGame {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        /* justify-content: center;
+    align-items: center; */
+    }
+
+    .playImage img .sideImg img {
+        /* width: 5%;  */
+
+    }
+
+    .playImage {
+        /* margin: 50px 20px 50px 30px; */
+        /* width: 50%; */
+        margin: 50px;
+    }
+
+    .sideImg img {
+        width: 50%;
+    }
+
+    .sideImg {
+        position: absolute;
+        bottom: -31px;
+        left: -41px;
+    }
+
+    .play_details {
+        text-align: center;
+        justify-content: center;
+    }
 
 
 
@@ -161,9 +199,10 @@
     }
 
     /* Banner section */
-    .banner_details{
+    .banner_details {
         flex-direction: column-reverse;
     }
+
     .banner_contents {
         /* padding: 10px 50px 10px 20px; */
         width: 100%;
@@ -182,21 +221,24 @@
     .banner_image img {
         width: 100%;
     }
+
     /* Gamer section  */
-    .gamer{
+    .gamer {
         object-fit: cover;
         flex-direction: column;
         margin: 0;
     }
+
     .gamer_details {
         text-align: center;
     }
+
     /* online gaming section */
-    
-        .online_game {
-            margin: 30px;
-            padding: 0;
-        }
+
+    .online_game {
+        margin: 30px;
+        padding: 0;
+    }
 
 
 }
