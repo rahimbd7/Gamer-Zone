@@ -33,15 +33,16 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        margin-left: 18px;
     }
 
     .banner_contents {
         width: 100%;
-        padding: 20px 10px;
+        padding: 40px 10px;
         display: flex;
         justify-content: center;
         align-items: center;
-        /* padding: 2px; */
+
 
     }
 
@@ -145,29 +146,25 @@
         margin: 0;
         padding: 0;
         flex-direction: column;
-        /* justify-content: center;
-    align-items: center; */
     }
 
-    .playImage img .sideImg img {
-        /* width: 5%;  */
-
+    .instantPlay {
+        margin:0px 0px 50px 20px;
     }
+
 
     .playImage {
-        /* margin: 50px 20px 50px 30px; */
-        /* width: 50%; */
         margin: 50px;
     }
 
     .sideImg img {
-        width: 50%;
+        width: 92%;
     }
 
     .sideImg {
         position: absolute;
         bottom: -31px;
-        left: -41px;
+        left: -60px;
     }
 
     .play_details {
@@ -175,10 +172,63 @@
         justify-content: center;
     }
 
+    /* Game categories section */
+    .categories {
+        background-color: #FFF;
+    }
 
+    .cat_details {
+        padding: 10px;
+        gap: 0;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
 
+    .category {
+        padding: 5px 4px;
+        width: fit-content;
+    }
 
+    .category img {
+        width: 15%;
+        height: 15%;
+    }
 
+    .category p {
+        font-size: 12px;
+        padding-left: 5px;
+    }
+
+    /* Footer Area */
+    .footerArea{
+        margin-top: 50px;
+    }
+    .tags,
+    .social_link,
+    .policies {
+        flex-wrap: wrap;
+    }
+
+    .tags {
+        gap: 49px
+    }
+
+    .social_link {
+        display: grid;
+        grid-template-columns: repeat(3, 50px);
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+    }
+
+    .copyright {
+        margin-top: 74px;
+        /* width: 200px;  */
+    }
+
+    .copyright br {
+        display: block;
+    }
 
 
 }
@@ -190,7 +240,6 @@
     /* Navbar style */
     nav {
         margin: 20px;
-        /* gap:5%; */
     }
 
     .menu,
@@ -201,10 +250,11 @@
     /* Banner section */
     .banner_details {
         flex-direction: column-reverse;
+
     }
 
     .banner_contents {
-        /* padding: 10px 50px 10px 20px; */
+        padding:50px 50px;
         width: 100%;
     }
 
@@ -239,6 +289,56 @@
         margin: 30px;
         padding: 0;
     }
+        .card_details {
+            font-size: 1rem;
+        }
 
+    /* Instant play section */
+    .instantPlay{
+        margin: 0;
+    }
+    .instantPlayGame {
+        margin: 40px;
+        gap: 65px;
+    }
 
+    .playImage {
+        margin: 10px;
+    }
+
+    .sideImg img {
+        width: 100%;
+    }
+
+    .sideImg {
+        position: absolute;
+        bottom: -39px;
+        left: -51px;
+    }
+
+    .play_details {
+        text-align: center;
+    }
+
+    .play_details p {
+        font-size: 16px;
+    }
+
+    .play_details h1 {
+        font-size: 48px;
+        ;
+    }
+
+    /* Game categories section */
+    .categories {
+        background-color: #FFF;
+    }
+
+    .cat_details {
+        padding: 10px 10px 90px 10px;
+        gap: 0;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        
+    }
 }
